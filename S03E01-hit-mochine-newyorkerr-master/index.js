@@ -52,14 +52,6 @@ const handleAnswer = (answer) => {
           console.log("Je n'ai pas compris la commande.");
   }
 
-  // if(answer === 'chante') {
-  //     console.log(`Je m'appelle Charlu, je m'appelle Lili, vous êtes chez O'clock`);
-  // } else if(answer === 'classement') {
-
-  // } else if(answer === 'quitter') {
-  //     console.log("Au revoir !");
-  //     rl.close();
-  // }
 }
 
 rl.on('line', handleAnswer);
